@@ -140,29 +140,15 @@ function ProjectDetail() {
               </div>
             </div>
 
-            {/* Decorative Panel */}
-            <div className="flex-1 min-h-48 relative overflow-hidden">
-              {project.image ? (
+            {project.image && (
+              <div className="flex-1 min-h-48 relative overflow-hidden">
                 <img
                   src={project.image}
                   alt={`${project.title} preview`}
                   className="w-full h-full object-cover object-top"
                 />
-              ) : (
-                <div
-                  className="w-full h-full flex items-end justify-end p-6"
-                  style={{ background: `linear-gradient(135deg, #1E2022 0%, ${project.color}10 100%)` }}
-                >
-                  <div
-                    className="absolute inset-0 opacity-5"
-                    style={{
-                      backgroundImage: `repeating-linear-gradient(45deg, ${project.color} 0, ${project.color} 1px, transparent 0, transparent 50%)`,
-                      backgroundSize: '12px 12px',
-                    }}
-                  />
-                </div>
-              )}
-            </div>
+              </div>
+            )}
           </div>
         </section>
 
