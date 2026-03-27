@@ -160,12 +160,6 @@ function ProjectDetail() {
                       backgroundSize: '12px 12px',
                     }}
                   />
-                  <span
-                    className="relative font-['Inter'] text-[0.75rem] uppercase tracking-[0.3em] z-10"
-                    style={{ color: `${project.color}60` }}
-                  >
-                    REF. ARCH / {project.dossier}
-                  </span>
                 </div>
               )}
             </div>
