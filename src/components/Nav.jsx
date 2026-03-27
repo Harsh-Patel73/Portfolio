@@ -61,14 +61,6 @@ function Nav() {
         >
           Projects
         </a>
-        <a
-          href={isHome ? '#contact' : '/#contact'}
-          className={`font-['Inter'] uppercase text-[0.75rem] tracking-[0.2em] transition-colors duration-100 ${
-            isHome && activeSection === 'contact' ? activeClass : inactiveClass
-          }`}
-        >
-          Contact
-        </a>
       </div>
       <div className="flex items-center gap-6">
         <a

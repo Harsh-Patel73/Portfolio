@@ -184,27 +184,9 @@ function ProjectDetail() {
 
       </main>
 
-      <footer className="w-full bg-[#0C0E10] flex flex-col md:flex-row justify-between items-center px-12 py-16 gap-8 mt-8">
+      <footer className="w-full bg-[#0C0E10] flex items-center justify-center px-12 py-16 mt-8">
         <div className="font-['Inter'] text-[0.75rem] uppercase tracking-[0.2em] text-[#E2E2E5]/40">
           © 2025 Harsh Patel. All Rights Reserved.
-        </div>
-        <div className="flex gap-12 font-['Inter'] text-[0.75rem] uppercase tracking-[0.2em] text-[#E2E2E5]/40">
-          <a
-            href="https://www.linkedin.com/in/harshpatel73/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="hover:text-[#E2E2E5] underline decoration-[#E2E2E5]/30 underline-offset-4 transition-all duration-150"
-          >
-            LinkedIn
-          </a>
-          <a
-            href="https://github.com/Harsh-Patel73"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="hover:text-[#E2E2E5] underline decoration-[#E2E2E5]/30 underline-offset-4 transition-all duration-150"
-          >
-            GitHub
-          </a>
         </div>
       </footer>
     </div>
