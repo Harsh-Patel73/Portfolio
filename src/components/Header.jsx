@@ -10,7 +10,7 @@ function Header() {
         <p className="font-['Inter'] text-[0.75rem] text-[#425675] uppercase tracking-[0.2em] mb-6">
           Tech Professional &amp; Developer
         </p>
-        <p className="font-['Newsreader'] text-[1rem] text-[#E2E2E5]/80 leading-relaxed max-w-2xl mb-10">
+        <p className="font-['Newsreader'] text-[1rem] text-[#E2E2E5] leading-relaxed max-w-2xl mb-10">
           I leverage technology to make systems more reliable and efficient while helping teams work smarter. My background spans IT operations, cloud solutions, and process improvement, where I've focused on solving problems, streamlining workflows, and bridging the gap between technical teams and business needs. I enjoy collaborating across teams, tackling challenges, and continuously learning to build solutions that have real, lasting impact.
         </p>
 
@@ -42,7 +42,7 @@ function Header() {
                 <p className="font-['Newsreader'] text-[1rem] font-bold text-[#E2E2E5]">IT Cloud Solutions Engineer</p>
                 <p className="font-['Inter'] text-[0.75rem] uppercase tracking-[0.2em] text-[#5C7CFA] mt-1">Entek Engineering</p>
               </div>
-              <p className="font-['Inter'] text-[0.75rem] uppercase tracking-[0.15em] text-[#425675] shrink-0">Aug 2024 – Present</p>
+              <p className="font-['Inter'] text-[0.75rem] uppercase tracking-[0.15em] text-[#ca6e00] shrink-0">Aug 2024 – Present</p>
             </div>
             <ul className="space-y-2">
               {[
@@ -66,7 +66,7 @@ function Header() {
                 <p className="font-['Newsreader'] text-[1rem] font-bold text-[#E2E2E5]">Business Systems Analyst – Cloud &amp; Infrastructure Operations</p>
                 <p className="font-['Inter'] text-[0.75rem] uppercase tracking-[0.2em] text-[#5C7CFA] mt-1">BNSF Railway</p>
               </div>
-              <p className="font-['Inter'] text-[0.75rem] uppercase tracking-[0.15em] text-[#425675] shrink-0">May 2023 – Aug 2024</p>
+              <p className="font-['Inter'] text-[0.75rem] uppercase tracking-[0.15em] text-[#ca6e00] shrink-0">May 2023 – Aug 2024</p>
             </div>
             <ul className="space-y-2">
               {[

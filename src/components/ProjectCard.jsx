@@ -17,7 +17,7 @@ function ProjectCard({ project }) {
           {project.technologies.slice(1).map((tech, i) => (
             <span
               key={i}
-              className="bg-[#334766] text-[#A2B6DA] font-['Inter'] text-[0.75rem] uppercase tracking-[0.15em] px-3 py-1 rounded-full"
+              className="bg-[#334766] text-[#E2E2E5] font-['Inter'] text-[0.75rem] uppercase tracking-[0.15em] px-3 py-1 rounded-full"
             >
               {tech}
             </span>
